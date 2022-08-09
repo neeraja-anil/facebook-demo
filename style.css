@@ -1,0 +1,171 @@
+.header{
+    display: flex;
+    background: #3b5998;
+    width: 100%;
+    height: 90px;
+}
+
+.logo{
+    display: flex;
+    width: 50%;
+    height: inherit;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-text{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.login{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.login-form{
+    display: flex;
+    /* justify-content: center; */
+
+}    
+
+.login-label{
+    color: #ffff;
+    font-size: 11px;
+}
+
+.recover{
+    font-size: 11px;
+    color: #ffff;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.recover:hover{
+    opacity: 1;
+}
+
+.sub-btn{
+    background: #4267b2;
+    color: #ffff;
+    border-color: #29487d;
+    height: 22px;
+}
+.sub-btn:hover{
+    background: #29487d;
+}
+
+body{
+    margin: 0;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif ;
+}
+
+/* main body section */
+
+.body{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(white, #D3D8E8);
+    
+}
+
+.left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 30px;
+}
+
+.paragraph{
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.right{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.name1{
+    height: 25px;
+    width: 187px;
+    border-radius: 3px;
+    border-width: thin;
+}
+
+.inputs{
+    height: 25px;
+    width: 385px;
+    border-radius: 3px;
+    border-width: thin;
+}
+
+.bday{
+
+}
+
+.labels{
+    font-size: 15px;
+    color: gray;
+}
+
+.selection{
+    border: solid 1px;
+    border-radius: 3px;
+    height: 25px;
+}
+
+.gender{
+    font-size: 15px;
+}
+
+#agreement{
+    font-size: 11px;
+    color: gray;
+}
+
+.button{
+    height: 25px;
+    width: 150px;
+    background: linear-gradient(#67ae55, #578843);
+    border-radius: 3px;
+    border: green;
+    color: #ffff;
+}
+.button:hover{
+    background: linear-gradient(#79bc64,#578843);
+}
+
+.link{
+    text-decoration: none;
+    color: #29487d;
+}
+#band{
+    font-size: 15px;
+
+}
